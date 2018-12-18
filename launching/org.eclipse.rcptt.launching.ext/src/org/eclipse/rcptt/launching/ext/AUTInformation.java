@@ -212,6 +212,8 @@ public class AUTInformation {
 			values.put(VERSION, "4.8");
 		} else if (minor == 108) {
 			values.put(VERSION, "4.9");
+		} else if (minor == 109) {
+			values.put(VERSION, "4.10]");
 		}
 	}
 
