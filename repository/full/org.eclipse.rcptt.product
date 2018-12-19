@@ -331,7 +331,7 @@ Apache Software Foundation http://www.apache.org/
       <feature id="org.eclipse.ecf.filetransfer.feature"/>
       <feature id="org.eclipse.e4.rcp"/>
       <feature id="org.eclipse.egit"/>
-      <feature id="org.eclipse.jgit"/>
+      <feature id="org.eclipse.jgit" version="5.3.0.201901162155-m1"/>
       <feature id="org.eclipse.equinox.p2.discovery.feature"/>
       <feature id="org.eclipse.rcptt.module.nebula"/>
       <feature id="org.eclipse.rcptt.launching"/>
@@ -340,7 +340,7 @@ Apache Software Foundation http://www.apache.org/
    <configurations>
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="4" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
    </configurations>
 
