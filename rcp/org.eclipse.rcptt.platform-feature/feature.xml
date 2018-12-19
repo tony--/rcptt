@@ -186,7 +186,7 @@
          version="0.0.0"
          unpack="false"/>
 
-   <plugin
+<!--    <plugin
          id="org.eclipse.rcptt.core.swt.win32"
          os="win32"
          ws="win32"
@@ -196,7 +196,7 @@
          version="0.0.0"
          fragment="true"
          unpack="false"/>
-
+ -->
    <plugin
          id="org.eclipse.rcptt.core.swt.win64"
          os="win32"

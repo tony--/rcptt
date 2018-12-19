@@ -211,7 +211,7 @@ Not used in runtime.
          version="2.4.0.qualifier"
          unpack="false"/>
 
-   <plugin
+<!--    <plugin
          id="org.eclipse.rcptt.core.swt.win32"
          os="win32"
          ws="win32"
@@ -221,7 +221,7 @@ Not used in runtime.
          version="2.4.0.qualifier"
          fragment="true"
          unpack="false"/>
-
+ -->
    <plugin
          id="org.eclipse.rcptt.core.swt.win64"
          os="win32"
