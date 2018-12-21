@@ -224,7 +224,7 @@ public class AUTInformation {
 		if (major != 3)
 			return;
 		int minor = ((OSGiVersion) swtVersion).getMinor();
-		if (minor <= 6) {
+		if (minor <= 7) {
 			values.put(VERSION, "4.3");
 		}
 	}
