@@ -22,7 +22,7 @@
 
 	<properties>
 		<coreRepository>file:/${user.dir}/repository/core/target/repository</coreRepository>
-		<orbitRepository>http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository/</orbitRepository>
+		<orbitRepository>https://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository/</orbitRepository>
 	</properties>
 
 	<repositories>
@@ -52,7 +52,7 @@
 				<repository>
 					<id>indigo</id>
 					<layout>p2</layout>
-					<url>http://download.eclipse.org/releases/indigo</url>
+					<url>https://download.eclipse.org/releases/indigo</url>
 				</repository>
 				<repository>
 					<id>ajdt37</id>
@@ -72,12 +72,12 @@
 				<repository>
 					<id>neon</id>
 					<layout>p2</layout>
-					<url>http://download.eclipse.org/releases/neon</url>
+					<url>https://download.eclipse.org/releases/neon</url>
 				</repository>
 				<repository>
 					<id>ajdt48</id>
 					<layout>p2</layout>
-					<url>http://download.eclipse.org/tools/ajdt/48/dev/update</url>
+					<url>https://download.eclipse.org/tools/ajdt/48/dev/update</url>
 				</repository>
 			</repositories>
 		</profile>

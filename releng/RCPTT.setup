@@ -65,7 +65,7 @@
     <requirement
         name="org.eclipse.pde.feature.group"/>
     <repository
-        url="http://download.eclipse.org/tools/ajdt/45/dev/update"/>
+        url="https://download.eclipse.org/tools/ajdt/45/dev/update"/>
     <repository
         url="http://ifedorenko.github.com/m2e-extras/"/>
     <description>Install the tools needed in the IDE to work with the source code for ${scope.project.label}</description>

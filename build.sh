@@ -9,9 +9,11 @@
 # Contributors:
 # 	Xored Software Inc - initial API and implementation and/or initial documentation
 #*******************************************************************************
+rm ./localrepo
+
 export MAVEN_OPTS="-Xms512m -Xmx1024m -XX:MaxMetaspaceSize=256m"
 
-OPTIONS="-Dtycho.localArtifacts=ignore $@"
+OPTIONS="-Dtycho.localArtifacts=ignore -Dmaven.repo.local=./localrepo $@"
 
 mvn clean verify -f releng/mirroring/pom.xml $OPTIONS || exit 100 
 
