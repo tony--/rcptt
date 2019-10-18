@@ -21,7 +21,7 @@
     <relativePath>./pom-base.xml</relativePath>
   </parent>
   <properties>
-    <rcpttRepo>https://download.eclipse.org/rcptt/nightly/2.4.3/latest/repository</rcpttRepo>
+    <rcpttRepo>http://download.eclipse.org/rcptt/nightly/2.4.3/latest/repository</rcpttRepo>
   </properties>
   <dependencies>
 		<dependency>
